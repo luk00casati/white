@@ -1,2 +1,1 @@
-# white
-white noise generator
+a white noise generator inspired by tsoding

@@ -1,2 +1,2 @@
 #!/bin/sh
-clang++ -o white -lsfml-audio white.cpp
+clang++ -o white -lsfml-audio -Wall -O2 -s white.cpp

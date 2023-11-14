@@ -8,8 +8,9 @@ int main(){
     const unsigned int sampleRate = 44100;
     const unsigned int bufferSize = 44100;
 
-    const int lower_bound = sampleRate - 1000;
-    const int upper_bound = sampleRate + 1000;
+    const int difference = 2000;
+    const int lower_bound = sampleRate - difference;
+    const int upper_bound = sampleRate + difference;
 
     std::uniform_int_distribution<> distribution(lower_bound, upper_bound);
 
